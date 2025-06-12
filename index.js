@@ -14,6 +14,7 @@ const currentDir = process.cwd();
 const allFiles = fs.readdirSync(currentDir);
 // console.log(`Current Directory: ${currentDir}`);
 
+
 function createImgDir(){
     const makeImgDir = path.join(currentDir, 'images');
 
